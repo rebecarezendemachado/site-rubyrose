@@ -1,0 +1,135 @@
+/* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+
+/* HEADER */
+    header {
+      background-color: #eb5b7a;
+      padding: 20px;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 36px;
+      color: white;
+      font-weight: bold;
+    }
+
+
+    /* MENU */
+    nav {
+      background-color: #fff;
+      border-bottom: 2px solid #eb5b7a;
+      text-align: center;
+      padding: 8px;
+    }
+
+    nav a{
+      color: #eb5b7a;
+      text-decoration: none;
+      margin: 0 40px;
+      font-size: 1rem;
+      padding: 10px;
+      transition: 0.3s;
+      font-size: 17.5px;
+    }
+
+   nav a:hover {
+    text-decoration: underline;
+   }
+
+
+
+
+   /* CONTAINER */
+    .cadastro-container {
+      background: white;
+      width: 400px;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .cadastro-container h2 {
+      color: #eb5b7a;
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+
+    /* INPUTS */
+    .cadastro-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 20px;
+      border: 1px solid #eb5b7a;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .cadastro-container input::placeholder {
+      color: #999;
+    }
+
+    /* BOTÃO */
+    .cadastro-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #e84c74;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .cadastro-container button:hover {
+      background-color: #d13b61;
+    }
+
+    /* LINK */
+    .cadastro-container p {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .cadastro-container a {
+      color: #eb5b7a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cadastro-container a:hover {
+      text-decoration: underline;
+    }
+
+    .centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
